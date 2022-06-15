@@ -1,0 +1,15 @@
+https://docs.djangoproject.com/en/4.0/intro/tutorial01/
+
+django-admin startproject mysite
+python manage.py runserver
+python manage.py startapp polls
+
+Apsirasom pirma polls/views.py
+Susikuriam polls folderyje urls.py faila apsirasom urlpatterns
+Dasirasom mysite urls.py faila  apie polls
+
+Pasileidziam serva, Go to http://localhost:8000/polls/ in your browser, and you should see the text “Hello, world. You’re at the polls index.”, which you defined in the index view.
+Pasikeiciam laiko zona i TIME_ZONE = 'Europe/Vilnius' , jeigu projectas lietuviskas
+Tada darom python manage.py migrate
+
+Tada reikia apsirasyti modelius polls/models.py faile
