@@ -13,3 +13,5 @@ Pasikeiciam laiko zona i TIME_ZONE = 'Europe/Vilnius' , jeigu projectas lietuvis
 Tada darom python manage.py migrate
 
 Tada reikia apsirasyti modelius polls/models.py faile
+
+
